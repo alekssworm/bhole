@@ -29,7 +29,7 @@ def update_grid():
             new_grid[i, j] = calculate_potential(i, j)
     return new_grid
 
-# Визуализация симуляции
+
 def visualize():
     plt.imshow(grid, cmap='jet')
     plt.colorbar(label='Gravitational Potential (J)')
